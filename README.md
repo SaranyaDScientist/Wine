@@ -62,11 +62,11 @@ The k-means clustering algorithm is known to be efficient in clustering large da
 **Inertia of KMeans - 1243.80**
 **Cluster labels by KMeans -**
 
-  **1    66**
+  **1  -  66**
           
-  **0    61**
+  **0  -  61**
           
-  **2    51**
+  **2  -  51**
 
 ## Elbow Method -
 The basic idea behind partitioning methods, such as k-means clustering, is to define clusters such that the total intra-cluster variation [or total within-cluster sum of square (WSS)] is minimized. The total WSS measures the compactness of the clustering and we want it to be as small as possible. The Elbow method looks at the total WSS as a function of the number of clusters: One should choose a number of clusters so that adding another cluster doesn’t improve much better the total WSS.
@@ -108,11 +108,11 @@ The choice of linkage method entirely depends on you and there is no hard and fa
 
 **Cluster labels by Agglomerative -**
 
-              **0    68**
+   **0  -  68**
               
-              **2    59**
+   **2  -  59**
               
-              **1    51**
+   **1  -  51**
 
 ### 3D Plot visualization of Agglomerative Clustering -
 The clusters identified by Agglomerative can be visualized using a 3D plot.
@@ -194,7 +194,7 @@ The important features of the model are
 ![Important Features](https://github.com/SaranyaDScientist/Wine/blob/master/Wine_feat.png)
 
 # Inference: 
-From the Model coefficients, it is evident that the most important features are Alcohol and Malic_acid¶
+From the Model coefficients, it is evident that the most important features are **Alcohol and Malic_acid.**
 
 
 
