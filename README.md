@@ -40,7 +40,7 @@ A heatmap is a data visualization technique that shows magnitude of a phenomenon
 **Heatmap -**
 ![Heatmap](https://github.com/SaranyaDScientist/Wine/blob/master/Wine_corr.png)
 
-### Standardization -
+# Data Transformation (Standardization) -
 Data standardization is the process of rescaling one or more attributes so that they have a mean value of 0 and a standard deviation of 1. Standardization assumes that your data has a Gaussian (bell curve) distribution. This does not strictly have to be true, but the technique is more effective if your attribute distribution is Gaussian.
 
 Since the clustering methods use distance as a metric, data needs to be standardized.
@@ -190,6 +190,10 @@ Those variables which have positive or negative higher coeeficients are the most
 The important features of the model are
 
 ![Important Features](https://github.com/SaranyaDScientist/Wine/blob/master/Wine_feat.png)
+
+# Inference: 
+From the Model coefficients, it is evident that the most important features are Alcohol and Malic_acid¶
+
 
 
 
