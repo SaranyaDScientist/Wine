@@ -9,7 +9,7 @@ Once the data have been collected, we have to understand each and every variable
 
 **Shape of the dataset – 178 Rows & 13 Columns**
 
-**Type of features – 1 Object & 12 Integers**
+**Type of features – 10 Float & 3 Integers**
 
 **Target Variable - Cultivator (object) - [1,2,3] - Multiple Classification**
 
@@ -147,9 +147,6 @@ Cross validation is a powerful tool that is used for estimating the predictive p
 ### K-Fold Cross Validation:
 Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample. The procedure has a single parameter called k that refers to the number of groups that a given data sample is to be split into. As such, the procedure is often called k-fold cross-validation. When a specific value for k is chosen, it may be used in place of k in the reference to the model, such as k=10 becoming 10-fold cross-validation. Cross-validation is primarily used in applied machine learning to estimate the skill of a machine learning model on unseen data. That is, to use a limited sample in order to estimate how the model is expected to perform in general when used to make predictions on data not used during the training of the model.
 
-From the KFold Cross Validation, The model that has low bias error and variance error is Random Forest. Since it is an overfitting model, we can take the next model which has low variance and bias error. Gradient Boosting Classifier is the best model both in terms of accuracy and bias and variance error.
-
-
 ## Logistic Regression -
 Logistic regression is a statistical method for analysing a dataset in which there are one or more independent variables that determine an outcome. The outcome is measured with a dichotomous variable (in which there are only two possible outcomes). It is used to predict a binary outcome (1 / 0, Yes / No, True / False) given a set of independent variables.
 
@@ -198,7 +195,7 @@ The important features of the model are
 
 ![Important Features](https://github.com/SaranyaDScientist/Wine/blob/master/Wine_feat.png)
 
-# Inference: 
+# Inference 
 From the Model coefficients, it is evident that the most important features are **Alcohol and Malic_acid.**
 
 
