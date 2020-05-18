@@ -24,20 +24,21 @@ Once the data have been collected, we have to understand each and every variable
 From the Univariate analysis, we can understand the central tendency and spread of numerical variables and the proportion of the various levels of categorical variables. Here, numerical variables are analysed through  **Box plots**.
 
 ### Outliers -
-Outliers are data points that are far from other data points. In other words, they are unusual values in a dataset. In this case, there are outliers and since the outliers are less than 5%, it is imputed with the median value.
+Outliers are data points that are far from other data points. In other words, they are unusual values in a dataset. In this case, there are outliers and since the outliers are less than 5%, it is **imputed with the median value.**
 
 **Outlier Detection -**
 ![Outliers](https://github.com/SaranyaDScientist/Wine/blob/master/Wine_outlier.png)
 
 ### Data Visualization (Multivariate Analysis) - 
-From the **pairplot**, the impact of various X variables on Y variable are visualized, thereby giving clues for feature selection.
 
 **Pairplot -**
+From the **pairplot**, the impact of various X variables on Y variable are visualized, thereby giving clues for feature selection.
+
 ![Pairplot](https://github.com/SaranyaDScientist/Wine/blob/master/Wine_pairplot.png)
 
+**Heatmap -**
 A heatmap is a data visualization technique that shows magnitude of a phenomenon as color in two dimensions. And using **heatmap**, the correlation between the variables are known. From that, we can also find out the highly correlated features.
 
-**Heatmap -**
 ![Heatmap](https://github.com/SaranyaDScientist/Wine/blob/master/Wine_corr.png)
 
 # Data Transformation (Standardization) -
