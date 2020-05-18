@@ -100,9 +100,13 @@ and they are often called Linkage Methods.
 Some of the common linkage methods are:
 
 **Complete-linkage:** calculates the maximum distance between clusters before merging.
+
 **Single-linkage:** calculates the minimum distance between the clusters before merging. This linkage may be used to detect high values in your dataset which may be outliers as they will be merged at the end.
+
 **Average-linkage:** calculates the average distance between clusters before merging.
+
 **Centroid-linkage:** finds centroid of cluster 1 and centroid of cluster 2, and then calculates the distance between the two before merging.
+
 The choice of linkage method entirely depends on you and there is no hard and fast method that will always give you good results. Different linkage methods lead to different clusters.
 
 **inertia of the best model: average manhattan 1253.20**
